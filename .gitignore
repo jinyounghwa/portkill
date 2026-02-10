@@ -1,0 +1,44 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo
+Cargo.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Debug
+debug/
+*.dSYM/
+
+# Release builds (optional - uncomment if you don't want to track)
+# /target/release/
+# /target/debug/
+
+# Cross compilation
+.cross/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+*.profraw
+*.profdata
